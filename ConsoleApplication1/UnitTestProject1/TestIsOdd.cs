@@ -5,7 +5,7 @@ using ConsoleApplication1;
 namespace UnitTestProject1
 {
     [TestClass]
-    public class UnitTest1
+    public class TestIsOdd
     {
         [TestMethod]
         public void TestIsOdd()

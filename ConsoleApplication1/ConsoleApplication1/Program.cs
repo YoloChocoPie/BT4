@@ -40,5 +40,32 @@ namespace ConsoleApplication1
         {
             return true;
         }
+
+        //
+        // input float x
+        //  output : a int that smallest but not smaller than X
+        // ideal : first change float into integer than ++1
+        //          if x is a negative than unchanged
+        //          if x == n then return x
+
+        public static int TestCeil(float x)
+        {
+            int n = (int)x;
+            if (x != n)
+                if (x > 0)
+                    n = n + 1;
+            return n;
+        }
+        //
+
+        public static int TestFloor(float x)
+        {
+                int n = (int)x;
+                if (x != n)
+                    if (x > 0)
+                        n = n;
+                return n;
+               
+        }
     }
 }
