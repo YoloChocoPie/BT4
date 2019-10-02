@@ -10,17 +10,14 @@ namespace UnitTestProject3
         [TestMethod]
         public void TestMethod1()
         {
-            //bool result1 = Program.IsPrimeNumber(1);
-          //  Assert.AreEqual(false, result1);
+           bool result1 = Program.IsPrimeNumber1(1);
+           Assert.AreEqual(false, result1);
 
-           // bool result3 = Program.IsPrimeNumber(3);
-           // Assert.AreEqual(true, result1);
+           bool result3 = Program.IsPrimeNumber(3);
+           Assert.AreEqual(true, result3);
 
-            //bool result1 = Program.IsPrimeNumber(1);
-            //Assert.AreEqual(true, result1);
-
-           // bool result1 = Program.IsPrimeNumber(-3);
-            //Assert.AreEqual(true, result1);
+           bool result2 = Program.IsPrimeNumber1(-3);
+           Assert.AreEqual(false, result2);
 
         }
     }

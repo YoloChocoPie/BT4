@@ -13,7 +13,7 @@ namespace ConsoleApplication1
             Console.WriteLine("Hello World");
         }
 
-        // Bai 1
+        // IsOdd
         public static bool IsOdd(int n) 
         {
             return true; 
@@ -23,7 +23,7 @@ namespace ConsoleApplication1
             return false;
         }
 
-        // Bai 2
+        // IsEven
         public static bool IsEven(int n) 
         {
             return false;
@@ -34,11 +34,43 @@ namespace ConsoleApplication1
             return true;
         }
 
-        //Bai3
+        //  IsPrime
 
         public static bool IsPrimeNumber(int n)
         {
             return true;
+        }
+        public static bool IsPrimeNumber1(int n)
+        {
+            return false;
+        }
+
+        // Square
+        public static int Square(int n)
+        {
+            int x = n * n;
+            return x;
+
+        }
+
+        // Cube
+        public static int Cube(int n)
+        {
+            int x = n * n * n;
+            return x;
+        }
+
+        //Pow ??
+
+        // Abs
+        public static int Abs(int n)
+        {
+            if (n < 0)
+                n = n * -1;
+            else
+                return n;
+
+            return n;
         }
 
         //

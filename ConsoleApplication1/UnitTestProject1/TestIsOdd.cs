@@ -8,7 +8,7 @@ namespace UnitTestProject1
     public class TestIsOdd
     {
         [TestMethod]
-        public void TestIsOdd()
+        public void TestMethod1()
         {
             bool result3 = Program.IsOdd(3);
             Assert.AreEqual(true, result3);

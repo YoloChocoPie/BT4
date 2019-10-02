@@ -1,8 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ConsoleApplication1;
-
-namespace TestIsEven
+namespace TestPow
 {
     [TestClass]
     public class UnitTest1
@@ -10,11 +9,11 @@ namespace TestIsEven
         [TestMethod]
         public void TestMethod1()
         {
-            bool result3 = Program.IsEven(3);
-            Assert.AreEqual(false, result3);
+            int result1 = Program.Abs((int)2);
+            Assert.AreEqual(2, result1);
 
-            bool result4 = Program.IsEven1(4);
-            Assert.AreEqual(true, result4);
+            int result2 = Program.Abs((int)-5);
+            Assert.AreEqual(5, result2);
         }
     }
 }
